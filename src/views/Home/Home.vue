@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>home & {{planet}}</p>
+    <p>home  and {{planet}}</p>
     <img :src="pageInfo"/>
   </div>
 </template>
