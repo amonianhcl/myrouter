@@ -7,7 +7,7 @@ Vue.use(VueRouter)
 const Category = () => { return import ('../views/Category/Category') };
 const Cart = () => { return import ('../views/Cart/Cart') };
 const Profile = () => { return import ('../views/Profile/Profile') };
-
+const User =() => import('../views/Profile/User')
 const routes = [
   {
     path: '/',
@@ -28,6 +28,10 @@ const routes = [
   {
     path: '/profile',
     component: Profile
+  },
+  {
+    path: '/user',
+    component: User
   },
 ]
 
