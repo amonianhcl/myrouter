@@ -10,8 +10,8 @@ const Profile = () => { return import ('../views/Profile/Profile') };
 
 const routes = [
   {
-    path: '',
-    redirect: '/home'
+    path: '/',
+    redirect: Home
   },
   {
     path: '/home',

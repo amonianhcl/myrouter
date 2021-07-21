@@ -1,0 +1,12 @@
+<html>
+<div height="200px">
+  <p>hhhhhhh</p>
+</div>
+<script>
+  var div = document.querySelector('div');
+  var p = document.querySelector('p');
+  div.addEventListener('click', function () { console.log("冒泡") }, false);
+  div.addEventListener('click', function () { console.log("捕获") }, true);
+</script>
+
+</html>

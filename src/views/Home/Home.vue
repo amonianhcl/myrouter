@@ -12,6 +12,8 @@ export default {
   data(){
     return {
       planet: this.$store.state.planet,
+
+      
       pageInfo:''
     }
   },
