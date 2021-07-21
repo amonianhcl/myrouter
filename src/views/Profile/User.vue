@@ -1,5 +1,5 @@
 <template>
   <div>
-    THis is the title from 'aaaa'
+    this title from 'aaa'
   </div>
 </template>
